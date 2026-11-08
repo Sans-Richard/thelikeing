@@ -9,7 +9,16 @@
 **/.ruff_cache/
 
 # Local experiment evidence and submission internals
-/others/
+/others/*
+!/others/tools/
+/others/tools/*
+!/others/tools/bench/
+!/others/tools/perf_verify/
+!/others/tools/verify_harness/
+!/others/bench_run/
+/others/tools/verify_harness/input/
+/others/tools/verify_harness/output/
+/others/tools/verify_harness/.verify.lock
 /workspaces/
 /sinkhorn_norm_problem_2360_template/parallel_candidates/
 
