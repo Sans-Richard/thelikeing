@@ -1,0 +1,30 @@
+# Reproducible build/cache artifacts
+**/__pycache__/
+**/*.py[cod]
+**/build/
+**/build-*/
+**/cmake-build-*/
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+
+# Local experiment evidence and submission internals
+/others/
+/workspaces/
+
+# Submission accounts, mutable state, locks and queues
+/workspace_control/state.json
+/workspace_control/submission_bridge_accounts.json
+/workspace_control/submit_queue/
+/workspace_control/probe_scheduler/
+/workspace_control/*.lock
+
+# Keep only the selected D1 baseline snapshot
+/workspace_control/snapshots/*
+!/workspace_control/snapshots/c20423055d770d8d6624639630de361de0107ab89a9bef68af6feb370f67084e/
+!/workspace_control/snapshots/c20423055d770d8d6624639630de361de0107ab89a9bef68af6feb370f67084e/**
+
+# Local runtime files
+*.tmp
+*.swp
+.DS_Store

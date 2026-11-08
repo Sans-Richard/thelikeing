@@ -1,0 +1,43 @@
+{
+  "snapshot_id": "b15f6f1db2bd1cc2f88b4b1d993a4cea37992d20c5295d6972c578d170c0e41b",
+  "source_dir": "/mnt/workspace/enjoy_ur_time/workspace_control/snapshots/b15f6f1db2bd1cc2f88b4b1d993a4cea37992d20c5295d6972c578d170c0e41b/source",
+  "snapshot_dir": "/mnt/workspace/enjoy_ur_time/workspace_control/snapshots/b15f6f1db2bd1cc2f88b4b1d993a4cea37992d20c5295d6972c578d170c0e41b",
+  "files": {
+    ".cannjudge-project.json": "84bd2f81f590d1469dbe1d0667a53047cf44d5695fa6a8fce813343821cf92ed",
+    "CMakeLists.txt": "82fc9f2009a8478a4a3fca5f44b566dfb1208af543dbf073b280cdb8b7b47cce",
+    "README.md": "4ff924a6d89e10ba9eba8a381daae2b3c3d2aa40f4bc8ebb79fc6741013eac5e",
+    "kernel.asc": "7a9f3b18dc2c7bdaa838040a55548eaaae092c11a17e0f18c5f6e3eb39c72ad0",
+    "main.asc": "6609b3f782b87be34060c65116fa1bbd9f4b3ee0d07259ee5764a65829d3a755",
+    "reference.py": "6625f4c67336117a234bfb2244064010b632586b41b4d9f47c50c9e2cfbeb375",
+    "requirements.txt": "a83a2a4ed7ab2e022b9b8a83cfa2b8cf52cc243006c597e8b96f90a8365590ac",
+    "run.sh": "be67ddb78378de65045ae893030b628fade3d6d467582f3f1396c09283c5c289",
+    "sample.py": "a57f032ab81efc1607922df568bbbe1f5b198b3174fddf18dc0a3cd56c0ba3a0"
+  },
+  "file_sizes": {
+    ".cannjudge-project.json": 1311,
+    "CMakeLists.txt": 496,
+    "README.md": 900,
+    "kernel.asc": 496267,
+    "main.asc": 6230,
+    "reference.py": 842,
+    "requirements.txt": 12,
+    "run.sh": 893,
+    "sample.py": 3609
+  },
+  "kernel_sha256": "7a9f3b18dc2c7bdaa838040a55548eaaae092c11a17e0f18c5f6e3eb39c72ad0",
+  "official_files": {
+    "CMakeLists.txt": "82fc9f2009a8478a4a3fca5f44b566dfb1208af543dbf073b280cdb8b7b47cce",
+    "main.asc": "6609b3f782b87be34060c65116fa1bbd9f4b3ee0d07259ee5764a65829d3a755",
+    "README.md": "4ff924a6d89e10ba9eba8a381daae2b3c3d2aa40f4bc8ebb79fc6741013eac5e",
+    "reference.py": "6625f4c67336117a234bfb2244064010b632586b41b4d9f47c50c9e2cfbeb375",
+    "requirements.txt": "a83a2a4ed7ab2e022b9b8a83cfa2b8cf52cc243006c597e8b96f90a8365590ac",
+    "run.sh": "be67ddb78378de65045ae893030b628fade3d6d467582f3f1396c09283c5c289",
+    "sample.py": "a57f032ab81efc1607922df568bbbe1f5b198b3174fddf18dc0a3cd56c0ba3a0"
+  },
+  "created_at": "2026-11-07T02:35:40.632238+00:00",
+  "provenance": {
+    "workspace": "A",
+    "task_id": "A_case8_11_13_upload_20261107",
+    "kind": "optimize"
+  }
+}
