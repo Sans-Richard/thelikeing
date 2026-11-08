@@ -11,20 +11,22 @@
 # Local experiment evidence and submission internals
 /others/
 /workspaces/
+/sinkhorn_norm_problem_2360_template/parallel_candidates/
 
-# Submission accounts, mutable state, locks and queues
-/workspace_control/state.json
-/workspace_control/submission_bridge_accounts.json
-/workspace_control/submit_queue/
-/workspace_control/probe_scheduler/
-/workspace_control/*.lock
-
-# Keep only the selected D1 baseline snapshot
+# Submission accounts, mutable state, locks, tools and queues
+/workspace_control/*
+!/workspace_control/baseline.json
+!/workspace_control/snapshots/
 /workspace_control/snapshots/*
-!/workspace_control/snapshots/c20423055d770d8d6624639630de361de0107ab89a9bef68af6feb370f67084e/
-!/workspace_control/snapshots/c20423055d770d8d6624639630de361de0107ab89a9bef68af6feb370f67084e/**
+!/workspace_control/snapshots/b15f6f1db2bd1cc2f88b4b1d993a4cea37992d20c5295d6972c578d170c0e41b/
+!/workspace_control/snapshots/b15f6f1db2bd1cc2f88b4b1d993a4cea37992d20c5295d6972c578d170c0e41b/**
+
+# Legacy/mutable workspace state
+/the_thing_u_must_know/current_baseline.json
+/the_thing_u_must_know/active_campaign.json
 
 # Local runtime files
 *.tmp
 *.swp
+*.lock
 .DS_Store
